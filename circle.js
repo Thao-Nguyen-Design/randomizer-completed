@@ -3,7 +3,7 @@ class Stars {
     this.fill = random(255);
     this.xPos = random(width);
     this.yPos = random(height);
-    this.size = _size;
+    this.size = (random(width * 0.001, width * 0.01));
 
   }
 

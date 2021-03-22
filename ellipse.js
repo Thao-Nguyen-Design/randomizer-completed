@@ -1,9 +1,9 @@
 class Path {
-  constructor(_rotation) {
-    this.shade = random(100, 255);
-    this.weight = random(1, 3);
-    this.sizeX = random(width * 0.3, width *0.35);
-    this.sizeY = random(width * 0.5, width*0.7);
+  constructor(_shade, _weight, _sizeX, _sizeY, _rotation) {
+    this.shade = _shade;
+    this.weight = _weight;
+    this.sizeX = _sizeX;
+    this.sizeY = _sizeY;
     this.rotation = _rotation;
 
   }

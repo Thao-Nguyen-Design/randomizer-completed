@@ -23,7 +23,7 @@ class ShapeA {
 
   move() {
 
-  this.rotation++
+  this.rotation--
 
   //   if (this.yPos <= height * 3) {
   //     this.yPos += 2;
